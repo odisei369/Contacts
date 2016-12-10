@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+    <!-- inject:css -->
+    <!-- endinject -->
+</head>
+<body>
+<div id="cards"></div>
+<script id="card-template" type="text/html">
+    <div class="card">
+        <img src="{{avatar}}">
+        <div class="title">{{name}}</div>
+        <ul class="data">
+            <li>
+                <span class="label">Phone:</span>{{phone}}
+            </li>
+            <li>
+                <span class="label">Email:</span>{{email}}
+            </li>
+        </ul>
+    </div>
+</script>
+<!-- inject:js -->
+<!-- endinject -->
+</body>
+</html>
